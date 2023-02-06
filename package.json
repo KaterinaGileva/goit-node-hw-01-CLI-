@@ -1,0 +1,30 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaterinaGileva/goit-node-hw-01-CLI-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaterinaGileva/goit-node-hw-01-CLI-/issues"
+  },
+  "homepage": "https://github.com/KaterinaGileva/goit-node-hw-01-CLI-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "bson-objectid": "^2.0.4",
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  }
+}
